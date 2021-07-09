@@ -1,7 +1,16 @@
-$font-stack:    Helvetica, sans-serif;
-$primary-color: purple;
+//import for Google font
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+$kumbh-sans: 'Kumbh Sans', sans-serif;
+$primary-color:hsl(238, 29%, 16%);
+$background: linear-gradient(to bottom, hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+
 
 body {
-  font: 100% $font-stack;
+  font: 100% $kumbh-sans;
   color: $primary-color;
+  background: $background;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
 }
