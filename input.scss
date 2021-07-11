@@ -4,7 +4,8 @@
 $kumbh-sans: 'Kumbh Sans', sans-serif;
 $primary-color:hsl(238, 29%, 16%);
 $background: linear-gradient(to bottom, hsl(273, 75%, 66%), hsl(240, 73%, 65%));
-
+$dark-blue: hsl(238, 29%, 16%);
+$soft-red: hsl(14, 88%, 65%);
 
 body {
   font: 100% $kumbh-sans;
@@ -13,4 +14,17 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
+  text-align: center;
 }
+
+.box {
+  max-width: 22rem;
+  padding: 10rem 2rem 2rem 2rem;
+  margin: auto;
+  background: white;
+  border-radius: 25px;
+  z-index: 2;
+  top: 100px;
+}
+
+

@@ -6,6 +6,17 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
+  text-align: center;
+}
+
+.box {
+  max-width: 22rem;
+  padding: 10rem 2rem 2rem 2rem;
+  margin: auto;
+  background: white;
+  border-radius: 25px;
+  z-index: 2;
+  top: 100px;
 }
 
 /*# sourceMappingURL=output.css.map */
