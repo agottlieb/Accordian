@@ -10,23 +10,22 @@ body {
 }
 
 .computer-image img {
-  position: absolute;
+  position: relative;
+  left: 1rem;
+  padding-top: 2rem;
+  margin-bottom: -5.5rem;
   max-width: 275px;
   max-width: 275px;
-  margin-top: 2rem;
-  margin-bottom: -10rem;
   z-index: 4;
 }
 
 .box {
   max-width: 22rem;
-  padding: 10rem 2rem 2rem 2rem;
+  padding: 9rem 2rem 2rem 2rem;
   margin: auto;
   background: white;
   border-radius: 25px;
   z-index: 1;
-  position: relative;
-  top: 120px;
 }
 
 /*# sourceMappingURL=output.css.map */
