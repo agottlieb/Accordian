@@ -58,7 +58,11 @@ body {
 }
 
 .answer {
-  visibility: hidden;
+  display: none;
+}
+
+.active-state {
+  display: block;
 }
 
 /*# sourceMappingURL=output.css.map */

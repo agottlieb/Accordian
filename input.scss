@@ -67,5 +67,10 @@ body {
 }
 
 .answer {
-  visibility: hidden;
+  //hides the space it takes in the DOM
+  display: none;
+}
+
+.active-state {
+  display: block;
 }
