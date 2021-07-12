@@ -13,10 +13,14 @@ body {
   position: relative;
   left: 1rem;
   padding-top: 2rem;
-  margin-bottom: -5.5rem;
-  max-width: 275px;
-  max-width: 275px;
+  margin-bottom: -7rem;
+  max-width: 250px;
+  max-width: 250px;
   z-index: 4;
+}
+
+.computer-shadow img {
+  z-index: 2;
 }
 
 .box {

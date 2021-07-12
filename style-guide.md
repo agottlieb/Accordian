@@ -44,3 +44,5 @@ Background gradient:
 
 - Family: [Kumbh Sans](https://fonts.google.com/specimen/Kumbh+Sans)
 - Weights: 400, 700
+
+//sass --watch input.scss output.css
