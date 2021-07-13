@@ -46,7 +46,7 @@ body {
 
 .quests {
   border-bottom: solid 1px lightgrey;
-  padding-top: 1rem;
+  padding-top: 0.5rem;
 }
 
 .arrow {
@@ -59,14 +59,28 @@ body {
 
 .answer {
   display: none;
+  padding-bottom: 1rem;
 }
 
 .active-state.visible {
   display: block;
 }
 
-.a1a.visible {
+.q1 {
+  font-weight: 400;
+  color: red;
+}
+
+.q1.visible {
+  font-weight: 700;
+}
+
+.ans2.visible {
   display: block;
+}
+
+.attribution {
+  margin-top: 2rem;
 }
 
 /*# sourceMappingURL=output.css.map */
