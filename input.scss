@@ -71,6 +71,10 @@ body {
   display: none;
 }
 
-.active-state {
+.active-state.visible {
+  display: block
+}
+
+.a1a.visible {
   display: block;
 }

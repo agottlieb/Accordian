@@ -1,3 +1,6 @@
+1- SASS hardest part was installation 
+2- aria code role as new
+
 # Frontend Mentor - FAQ accordion card
 
 ![Design preview for the FAQ accordion card coding challenge](./design/desktop-preview.jpg)
