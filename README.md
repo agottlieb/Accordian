@@ -7,4 +7,4 @@ to do:
 3. bolden question
 4. reverse arrow
 5. space btw answer and question
-
+6. delete unnecessary css classes

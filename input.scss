@@ -49,11 +49,8 @@ body {
   z-index: 1;
 }
 
-.questions {
+.faq-pair {
   text-align: left;
-}
-
-.quests {
   border-bottom: solid 1px lightgrey;
   padding-top: .5rem;
 }
@@ -76,19 +73,7 @@ body {
   display: block
 }
 
-.q1 {
-  font-weight: 400;
-  color: red;
-}
-
-.q1.visible {
+.faq-pair--active {
   font-weight: 700;
 }
 
-.ans2.visible {
-  display: block;
-}
-
-.attribution {
-  margin-top: 2rem;
-}

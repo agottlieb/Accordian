@@ -17,3 +17,5 @@
 .prettierignore
 
 dart-sass/
+
+extra/
