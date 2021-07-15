@@ -59,12 +59,9 @@ body {
   padding-bottom: 1rem;
 }
 
-.active-state.visible {
-  display: block;
-}
-
-.faq-pair--active {
+.faq-pair--active .question {
   font-weight: 700;
+  color: red;
 }
 
 /*# sourceMappingURL=output.css.map */
