@@ -1,5 +1,4 @@
-const question = document.querySelectorAll('.question');
-
+const question = document.querySelectorAll('.faq-pair');
 
 question.forEach((item) => {
     item.addEventListener('click', (event) => {
@@ -8,20 +7,21 @@ question.forEach((item) => {
 
         //don't select the ones that weren't clicked
         document.querySelectorAll('.faq-pair--active').forEach((item) => {
-            if (item !=showAnswer) {
+            if (item != showAnswer) {
                 item.classList.remove('.faq-pair--active');
             }
         });
-        showAnswer.classList.toggle('.faq-pair--active')
-    })
+        showAnswer.classList.toggle('.faq-pair--active');
+    });
 });
 
+
 //works!!
-// const arrow = document.querySelector('.arrow');
+// const arrow = document.querySelectorAll('.arrow');
 
-// const activeState = document.querySelector('.active-state');
+// const activeState = document.querySelectorAll('.answer');
 
-// const question = document.querySelector('q1');
+// const question = document.querySelectorAll('.question');
 
 // const toggle = () => {
 //     activeState.classList.toggle('visible');
