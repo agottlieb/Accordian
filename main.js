@@ -30,14 +30,3 @@ question.forEach((item) => {
 
 // arrow.addEventListener('click', toggle);
 
-
-
-// //arr2
-// const arr2 = document.querySelector('.arr2');
-// const as2 = document.querySelector('.ans2');
-
-// const t2 = () => {
-//     as2.classList.toggle('visible');
-// };
-
-// arr2.addEventListener('click', t2);

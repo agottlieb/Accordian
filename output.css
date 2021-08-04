@@ -14,7 +14,6 @@ body {
   padding-top: 2rem;
   margin-bottom: -7rem;
   max-width: 250px;
-  max-width: 250px;
   z-index: 4;
 }
 
@@ -44,6 +43,15 @@ body {
   border-bottom: solid 1px lightgrey;
   padding-top: 0.5rem;
 }
+.faq-pair--active .question {
+  font-weight: 700;
+}
+.faq-pair--active .question::after {
+  transform: rotate(180deg);
+}
+.faq-pair--active .answer {
+  display: block;
+}
 
 .question {
   cursor: pointer;
@@ -51,8 +59,8 @@ body {
   transition: all 1s ease-in-out;
 }
 
-.faq-pair--active .question {
-  color: red;
+.question:hover {
+  color: #f47c57;
 }
 
 .faq-pair--active .question::after {
@@ -75,14 +83,34 @@ body {
   transition: all 1.5s ease-in-out;
 }
 
-.faq-pair--active.answer {
-  display: block;
-  font-weight: 700;
-  color: red;
-}
-
 .attribution {
   padding-top: 2rem;
+}
+
+@media (min-width: 2000px) {
+  .box {
+    max-width: 60rem;
+    margin-top: -14rem;
+    margin-bottom: 4rem;
+  }
+
+  .computer-image img {
+    left: -20rem;
+    top: 10rem;
+    max-width: 500px;
+    overflow: hidden;
+    z-index: 1;
+  }
+
+  .computer-box img {
+    z-index: 4;
+    left: -30rem;
+    top: 20rem;
+  }
+
+  .computer-shadow img {
+    width: 500px;
+  }
 }
 
 /*# sourceMappingURL=output.css.map */
