@@ -6,7 +6,7 @@ $primary-color:hsl(238, 29%, 16%);
 $background: linear-gradient(to bottom, hsl(273, 75%, 66%), hsl(240, 73%, 65%));
 $dark-blue: hsl(238, 29%, 16%);
 $soft-red: hsl(14, 88%, 65%);
-$breakpoint: 2000px;
+$breakpoint: 1000px;
 
 body {
   font: 100% $kumbh-sans;
@@ -83,10 +83,6 @@ body {
 }
 
 
-// .question::after {
-
-// }
-
 .arrow {
   background: url('images/icon-arrow-down.svg') no-repeat;
   height: 40px;
@@ -111,7 +107,7 @@ body {
 
   .box {
     max-width: 60rem;
-    margin-top: -14rem;
+    margin-top: -21rem;
     margin-bottom:4rem;
   }
 
@@ -130,6 +126,27 @@ body {
   }
 
   .computer-shadow img {
-    width: 500px;
+    background-image: url('images/bg-pattern-desktop.svg');
+    // width: 100rem;
+    // right: 20rem; 
+    // bottom: 50rem;
+    height: 300px;
+    width: 600px;
+    position: relative;
+    top: 5rem;
+    z-index: 1;
+  }
+
+  .faq {
+    position: relative;
+    left: 7rem;
+    bottom: 4rem;
+  }
+
+  .faq-box {
+    position: relative;
+    left: 35rem;
+    bottom: 4rem;
+    max-width: 24rem;
   }
 }
